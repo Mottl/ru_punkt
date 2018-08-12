@@ -18,7 +18,7 @@ import nltk
 nltk.download('nltk')
 ```
 
-4. Copy Russian tokenizer into `nltk_data` folder (ensure which one is appropriate for your OS):
+4. Copy Russian tokenizer into `nltk_data` folder (ensure the appropriate location for your OS):
 ```bash
 cp -r ru_punkt/nltk_data ~/nltk_data
 ```
