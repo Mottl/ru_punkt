@@ -34,7 +34,7 @@ print("After:", nltk.sent_tokenize(text, language="russian"))
 or 
 ```python
 import nltk
-tokenizer = nltk.load('tokenizers/punkt/PY3/russian.pickle')
+tokenizer = nltk.load('tokenizers/punkt/russian.pickle')
 text = "Ай да А.С. Пушкин! Ай да сукин сын!"
 print("Before:", nltk.sent_tokenize(text))
 print("After:", tokenizer.tokenize(text))
