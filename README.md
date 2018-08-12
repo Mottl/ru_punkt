@@ -7,15 +7,15 @@ Russian language support for NLTK's PunktSentenceTokenizer
 pip install nltk
 ```
 
-2. Download ru_punkt:
-```bash
-git clone https://github.com/Mottl/ru_punkt.git
-```
-
-3. Download 'punkt' data:
+2. Download _punkt_ data:
 ```python
 import nltk
 nltk.download('nltk')
+```
+
+3. Download _ru_punkt_:
+```bash
+git clone https://github.com/Mottl/ru_punkt.git
 ```
 
 4. Copy Russian tokenizer into `nltk_data` folder (ensure the appropriate location for your OS):
