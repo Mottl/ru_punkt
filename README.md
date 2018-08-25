@@ -1,6 +1,9 @@
 # ru_punkt
 Russian language support for NLTK's PunktSentenceTokenizer
 
+![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
+![Python 3x](https://img.shields.io/badge/python-3.x-blue.svg)
+
 ## Instalation
 1. Install NLTK python package:
 ```bash
