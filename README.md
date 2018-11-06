@@ -13,7 +13,7 @@ pip install nltk
 2. Download _punkt_ data:
 ```python
 import nltk
-nltk.download('nltk')
+nltk.download('punkt')
 ```
 
 3. Download _ru_punkt_:
