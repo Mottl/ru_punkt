@@ -23,7 +23,7 @@ git clone https://github.com/Mottl/ru_punkt.git
 
 4. Copy Russian tokenizer into `nltk_data` folder (ensure the appropriate location for your OS):
 ```bash
-cp -r ru_punkt/nltk_data ~/nltk_data
+cp -r ru_punkt/nltk_data/* ~/nltk_data
 ```
 
 ## Usage
